@@ -17,8 +17,8 @@
 **/
 #include "FileAssembler.h"
 
-void buildFile( std::vector<Node> transEngineOutput, char * binaryFile,
-        char * outputPath, char * translateCFG )
+void buildFile( std::vector<Node> transEngineOutput, const char * binaryFile,
+        const char * outputPath, const char * translateCFG )
 {
     std::map<std::string, std::string> varMap;
 
